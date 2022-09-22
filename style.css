@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*---------------cabeçalho---------------*/
+header {
+  padding: 4rem;
+  background: lightgoldenrodyellow;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: .8rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*---------------------Main-------------------------*/
+h2, h3 {
+  padding: 20px;
+}
+img {
+  width: 500px;
+  height: 315px;
+}
+
+.carros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+p {
+  text-align: justify; 
+  width: 1000px;
+  overflow-wrap: break-word; 
+  margin-top: 6px;
+}
+
+button {
+  margin-top: 6px;
+  border-radius: 10px;
+}
